@@ -1,0 +1,66 @@
+{
+  "user_end": {
+    "class": "bgcolor-skyblue",
+    "title": "终端用户响应时间",
+    "num": 2325.71,
+    "start": ""
+
+  },
+  "first_byte": {
+    "class": "bgcolor-green",
+    "title": "首字节时间",
+    "num": 439,
+    "start": "1",
+    "isLine": true
+  },
+  "server": {
+    "class": "bgcolor-red",
+    "title": "服务器连接时间",
+    "num": 390.24
+  },
+  "res_avi": {
+    "class": "bgcolor-yellow",
+    "title": "响应可用时间",
+    "num": 48.76,
+    "start": "server"
+  },
+  "web_time": {
+    "class": "bgcolor-skyblue",
+    "title": "前端时间",
+    "num": 1885.71,
+    "start": "res_avi"
+  },
+  "dom_time": {
+    "class": "bgcolor-purple",
+    "title": "DOM准备时间",
+    "num": 1885.76,
+    "start": "res_avi",
+    "isLine": true
+  },
+  "html_time": {
+    "class": "bgcolor-red",
+    "title": "HTML下载时间",
+    "num": 421.06,
+    "start": "res_avi",
+    "isLine": true
+  },
+  "dom_rev": {
+    "class": "bgcolor-lightgreen",
+    "title": "DOM建立时间",
+    "num": 1004.71,
+    "start": "html_time"
+  },
+  "page_time": {
+    "class": "",
+    "title": "页面渲染时间",
+    "num": 0.94,
+    "start": ""
+  },
+  "first_byte1": {
+    "class": "bgcolor-green",
+    "title": "首字节时间",
+    "num": 439,
+    "start": "html_time",
+    "isLine": true
+  }
+}
